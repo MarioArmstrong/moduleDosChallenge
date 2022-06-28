@@ -14,20 +14,36 @@ h2 {
         text-decoration: underline;
 }
 
-/* h3 {
-        background-color: #D49F34;
-} */
-
-/* .vl {
-        border-left: 6px solid #36485E;
-        height: 100px;
-        position: relative;
-        left: 10%;
-      } */
-
-
-
                                                                 /* Classes and Ids */
+/* About Me Section */
+#aboutMe {
+        background-color: #DAD3C6;
+        border: 10px none;
+        border-radius: 5px;
+        margin-top: 50px;
+
+}
+.sectionAboutMe{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex: 1 0 0;
+        /* flex-direction: column; */
+        padding: 10px;
+        text-align: center;
+}
+
+.sectionAboutMe p {
+        font-style: italic;
+}
+
+.marioPicture {
+      width: 20vw;
+      object-fit: scale-down;
+}
+
+.marioPicture:hover {
+        opacity: .5;
+}
 
 /* Navigation Elements */
 /* nav will be on the same line as the h1 and will not have any <ul> styling or <a> styling */
@@ -90,6 +106,10 @@ h2 {
         text-align: center;
 }
 
+.projectsCards img:hover {
+        opacity: .5;
+}
+
 /* removes the <h3> margin spacing so that heading is closer to the img */
 .headerTitle {
         margin: 0;
@@ -97,7 +117,7 @@ h2 {
 
 /* images were scaling incorrectly and were very different sizes so this made them uniform */
 .images {
-        width: 50vh;
+        height: 50vh;
         object-fit: scale-down;
 }
 
