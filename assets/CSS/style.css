@@ -1,0 +1,152 @@
+                                                                /*Main elements*/
+
+body {
+        background-color: #B46A58;
+        color: #36485E;
+        font-size: 20px;
+}
+
+h1 {
+        padding: 0 0 0 10px;
+}
+
+h2 {
+        text-decoration: underline;
+}
+
+/* h3 {
+        background-color: #D49F34;
+} */
+
+/* .vl {
+        border-left: 6px solid #36485E;
+        height: 100px;
+        position: relative;
+        left: 10%;
+      } */
+
+
+
+                                                                /* Classes and Ids */
+
+/* Navigation Elements */
+/* nav will be on the same line as the h1 and will not have any <ul> styling or <a> styling */
+.navBar {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #D49F34;
+        border: 10px none;
+        border-radius: 5px;
+}
+
+.navBar ul{
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 25px;
+}
+
+.navBar li {
+        padding: 0px 10px;
+}
+
+.navBar ul a{
+        text-decoration: none;
+}
+
+.navBar a:hover {
+        color: #9F5360;
+}
+
+.navBar a:link {
+        color: #707c83;
+}
+
+.navBar a:visited {
+        color: #485F4D;
+}
+
+.navBar a:active {
+        color: #826C57;
+}
+
+/* Projects Section */
+/* porjects section will collapse the contents down when scaling the page */
+#sectionOne {
+        background-color: #DAD3C6;
+        border: 10px none;
+        border-radius: 5px;
+}
+#projects {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.projectsCards {
+        flex: 1 0 0;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+}
+
+/* removes the <h3> margin spacing so that heading is closer to the img */
+.headerTitle {
+        margin: 0;
+}
+
+/* images were scaling incorrectly and were very different sizes so this made them uniform */
+.images {
+        width: 50vh;
+        object-fit: scale-down;
+}
+
+
+/* Work Experience Section */
+
+#sectionTwo {
+        background-color: #DAD3C6;
+        border: 10px none;
+        border-radius: 5px;
+
+}
+
+#sectionWork {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+}
+
+#sectionWork img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vmin;
+        margin-bottom: 50px;
+
+}
+
+
+/* Education and Contact Section*/
+#sectionThree {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+        background-color: #DAD3C6;
+        border: 10px none;
+        border-radius: 5px;
+
+}
+
+/* Footer Section */
+/* Footer will be fixed to the center bottom of the page */
+#footer {
+        position: static;
+        bottom: 0;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #893e32;
+}
