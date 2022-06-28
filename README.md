@@ -1,6 +1,6 @@
 # moduleDosChallenge
 
-GitHub Deploy link:
+GitHub Deploy link: https://marioarmstrong.github.io/moduleDosChallenge/
 
 The intent of my portfolio was to create something simple and minimalistic with a bit of style. The part of the assingment that I had a lot of difficulty with was getting all the elements to be placed on the page exactly as I wanted. I got pretty close to perfect, but some things are still off. For example, I tried many different ways for the <ul> in my Contact section to not have bullets but everything I did didn't affect the page at all. I also wanted to place the <li> in a row, but nothing I did affected it.
 
